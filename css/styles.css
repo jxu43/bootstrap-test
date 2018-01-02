@@ -38,3 +38,7 @@ body {
 	background-color: #512DA8;
 }
 
+input[type="radio"]{
+  margin: 0 5px 0 5px;
+}
+
