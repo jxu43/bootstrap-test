@@ -8,10 +8,12 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
+	<!-- build:css css/main.css-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap-social.css">
-	<link rel="stylesheet" href= "css/styles.css">
+	<link href="css/styles.css" rel="stylesheet">
+	<!-- endbuild -->
     <title>Ristorante Con Fusion: About Us</title>
 
 </head>
@@ -22,7 +24,7 @@
 	<nav class = "navbar navbar-inverse navbar-toggleable-sm fixed-top">
 		<div class = "container">
 			<button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#Navbar">
-				<span class "navbar-toggler-icon"></span>
+				<span class = "navbar-toggler-icon"></span>
 			</button>
 			<a class = "navbar-brand" href = "./index.html"><img src = "img/logo.png" height = "30" width = "41"></a>
 			<div class = "collapse navbar-collapse" id = "Navbar">
@@ -107,24 +109,6 @@
         <div class = "row row-content">
             <div class = "col-12 col-sm-12">
                 <h2>Corporate Leadership</h2>
-				
-				<!--tab execrise
-				<ul class = "nav nav-tabs">
-					<li class = "nav-item">
-						<a class = "nav-link active" href = "#peter" role = "tab" data-toggle = "tab"> Peter Pan, CEO</a>
-					</li>
-					<li class = "nav-item">
-						<a class = "nav-link" href = "#danny" role = "tab" data-toggle = "tab"> Danny Witherspoon, CFO</a>
-					</li>
-					<li class="nav-item">
-                      <a class="nav-link" href="#agumbe"role="tab" data-toggle="tab"> Agumbe Tang, CTO</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#alberto" role="tab" data-toggle="tab"> Alberto Somayya, Exec. Chef</a>
-                    </li>
-				</ul>
-				-->
-                
 				<!--accordion execrise-->
 				<div id = "accordion" role = "tablist">
 					<div class = "card">
@@ -274,9 +258,11 @@
     </footer>
 	
 	<!-- jQuery first, then Tether, then Bootstrap JS. -->
+	<!-- build:js js/main.js-->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- endbuild -->
 
 </body>
 
